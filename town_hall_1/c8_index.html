@@ -2,12 +2,20 @@
 <html lang="en">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<img src="article-image.jpg" alt="Article Image" style="max-width: 40%; min-width: 150px;">
-	<meta charset="utf-8">
+	<meta charset="uft-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>San Joaquin Valley Town Hall</title>
+	<img src="article-image.jpg" alt="Article Image" style="max-width: 40%; min-width: 150px;">
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="styles/c8_main.css">
+	<link rel="stlyesheet" href="styles/slicknav.css">
+	<script src="https://codejquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript>
+		$(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:mobile_menu")};
+		)}; 
+	</script> 
 </head>
 
 <body>
@@ -68,7 +76,8 @@
 			</ul>
 		</section>
 		<aside>
-			<h2>Guest speakers</h2>
+		      <h2>Guest speakers</h2>
+		      <div>
 			<h3>October<br><a href="speakers/brancaccio.html">David Brancaccio</a></h3>
 			<img src="images/brancaccio75.jpg" alt="David Brancaccio photo">
 			<h3>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
@@ -77,6 +86,7 @@
 			<img src="images/chua75.jpg" alt="Amy Chua photo">
 			<h3>February<br><a href="speakers/c7_sampson.html">Scott Sampson</a></h3>
 			<img src="images/sampson75.jpg" alt="Scott Sampson photo">
+	           </div>
 		</aside>
 	</main>
 	<footer>
